@@ -1,20 +1,96 @@
 /* 1. don't modify this style */
 * {
-  padding: 0;
-  margin: 0;
-
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  
+    box-sizing: border-box;
+  }
+  
+  /* 2. we use :root for default variables */
+  :root {
+    /* --"somekey-attr": "somevalue" i.e : */
+    --black-700: #000;
+    --bg-gradiant : #3B2A9F; 
+    --secondary : #FA8305;
+    --primary-100 : #5141AA;
+    --box-bg : #1C140F;
+    --black : #070707;
+  }
+  /* 3. and we use it like this */
+  .elementOne {
+    /* var(--"somekey-attr") */
+    background-color: var(--black-700);
+  }
+  
+  /* good luck */
+.rectangle{
+    height: 4px; 
+    
+     
+    background-color: var(--secondary); 
+    border-radius: 5px;
+}
+.header-link{
+    color: white;
+    margin-right: 40px;
+    text-decoration: none;
+    
+}
+.yellow-button{
+    background-color: var(--secondary);
+     color: white; border: none; border-radius: 10px; padding: 10px 25px 10px 25px;
+    font-family: thirdFont;
 }
 
-/* 2. we use :root for default variables */
-:root {
-  /* --"somekey-attr": "somevalue" i.e : */
-  --black-700: #000;
+@font-face {
+    font-family: firstFont;
+    src: url(Poppins-Bold.ttf);
 }
-/* 3. and we use it like this */
-.elementOne {
-  /* var(--"somekey-attr") */
-  background-color: var(--black-700);
+@font-face {
+    font-family: secondFont;
+    src: url(Poppins-Thin.ttf);
+}
+@font-face {
+    font-family: thirdFont;
+    src: url(Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: forthFont;
+    src: url(Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: fifthFont;
+    src: url(Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: sixthFont;
+    src: url(Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: seventhFont;
+    src: url(Poppins-Light.ttf);
+}
+html{
+    font-family: thirdFont;
+}
+.followers{
+    display: flex; align-items: center; justify-content: space-around; color: white; text-align: center;
+}
+.followers:hover{
+    font-size: 20px;
+}
+input::placeholder{
+    color: #898989;
+    
+}
+.iconItem{
+    color: #070707; background-color: white; width: 34px; height: 34px; font-size:15px; text-align: center; line-height: 34px; border-radius: 20px;
+}
+.brownDot{
+    width: 7px;
+    height: 7px;
+    border-radius: 20px;
+    background-color: rgba(220, 112, 0, 0.35);
+    margin-right: 14px;
 }
 
-/* good luck */
