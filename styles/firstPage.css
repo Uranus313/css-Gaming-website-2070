@@ -44,31 +44,38 @@
 
 @font-face {
     font-family: firstFont;
-    src: url(Poppins-Bold.ttf);
+    /* src: url(Poppins-Bold.ttf); */
+    src: url('../assets/fonts/Poppins-Bold.ttf');
 }
 @font-face {
     font-family: secondFont;
-    src: url(Poppins-Thin.ttf);
+    /* src: url(Poppins-Thin.ttf); */
+    src: url('../assets/fonts/Poppins-Thin.ttf');
 }
 @font-face {
     font-family: thirdFont;
-    src: url(Poppins-Medium.ttf);
+    /* src: url(Poppins-Medium.ttf); */
+    src: url('../assets/fonts/Poppins-Medium.ttf');
 }
 @font-face {
     font-family: forthFont;
-    src: url(Poppins-SemiBold.ttf);
+    /* src: url(Poppins-SemiBold.ttf); */
+    src: url('../assets/fonts/Poppins-SemiBold.ttf');
 }
 @font-face {
     font-family: fifthFont;
-    src: url(Poppins-Regular.ttf);
+    /* src: url(Poppins-Regular.ttf); */
+    src: url('../assets/fonts/Poppins-Regular.ttf');
 }
 @font-face {
     font-family: sixthFont;
-    src: url(Poppins-ExtraBold.ttf);
+    /* src: url(Poppins-ExtraBold.ttf); */
+    src: url('../assets/fonts/Poppins-ExtraBold.ttf');
 }
 @font-face {
     font-family: seventhFont;
-    src: url(Poppins-Light.ttf);
+    /* src: url(Poppins-Light.ttf); */
+    src: url('../assets/fonts/Poppins-Light.ttf');
 }
 html{
     font-family: thirdFont;
